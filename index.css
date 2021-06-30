@@ -1,0 +1,67 @@
+body{
+    height: 220%;
+    background-image: url('image1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax{
+    background-image: url('image3.jpg');
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav{
+
+    background-color:rgb(0, 0, 0);
+    font-size: 150%;
+}
+
+/*pesudo class*/
+a:hover{
+    background-color: rgb(73, 27, 27);
+}
+.dropdown-item:hover{
+background-color: rgb(73, 27, 27);
+}
+#link{
+    color:azure;
+    font-size: 18;
+    font-weight: bold;
+   
+}
+
+form{
+    margin-left: 40%;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 19;
+}
+
+input{
+    font-size: 30;
+}
+h1{
+    margin-top: 15%;
+    color: azure;
+    text-align: center;
+    font-size: 30;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 600%;
+}
+
+@media screen and(min-width:480px) {
+    body{
+        background-color: red;
+    }
+}
